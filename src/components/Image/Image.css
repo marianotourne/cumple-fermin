@@ -1,0 +1,11 @@
+picture {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 80%;
+  border-radius: 50%;
+  min-width: 300px;
+  max-width: 500px;
+}
