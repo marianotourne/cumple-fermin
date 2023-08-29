@@ -1,10 +1,10 @@
 import React from "react";
+import "./Name.css";
 
 export const Name = () => {
   return (
     <>
-      <h1>Fermín</h1>
-      <h2>Mi primer año</h2>
+      <h1 className="title">Fermín</h1>
     </>
   );
 };

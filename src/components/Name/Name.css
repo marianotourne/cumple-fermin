@@ -1,0 +1,8 @@
+.title {
+  font-size: 6rem;
+  letter-spacing: 4px;
+  margin-top: 24px;
+  color: #0e8f01ed;
+  -webkit-text-stroke: 1px #028901;
+  text-shadow: 5px 5px #a1d09d;
+}

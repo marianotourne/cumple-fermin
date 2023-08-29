@@ -4,8 +4,6 @@ picture {
 }
 
 img {
-  width: 80%;
+  width: 250px;
   border-radius: 50%;
-  min-width: 300px;
-  max-width: 500px;
 }

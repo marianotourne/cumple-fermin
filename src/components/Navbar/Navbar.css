@@ -1,7 +1,5 @@
 .navbar {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
   height: 50px;
   align-items: center;
   font-size: 2rem;
@@ -9,17 +7,16 @@
 
 .navbar-nav {
   display: flex;
-  column-gap: 20px;
+  column-gap: 30px;
   list-style: none;
 }
 
-.nav-link {
+.nav-item {
   color: #fff;
   text-decoration: none;
-  border: 1px solid black;
+  cursor: pointer;
 }
 
-.nav-link:hover,
-.nav-link.active {
+.nav-item:hover {
   color: #5f54d6;
 }
