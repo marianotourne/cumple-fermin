@@ -29,7 +29,11 @@ ul {
 
 a {
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.8rem;
+  color: #ffffff;
+  background-color: #32b019;
+  padding: 4px 8px;
+  border-radius: 4px;
 }
 
 #root {
@@ -48,7 +52,11 @@ a {
 .footerText {
   font-size: 3rem;
   text-align: center;
-  width: 90%;
+  width: 86%;
   height: 150px;
   padding-top: 16px;
+}
+
+.footerText p {
+  background-color: #ffffffbd;
 }

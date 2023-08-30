@@ -7,7 +7,9 @@ export const Donde = () => {
     <div className="footerText">
       <p>Quinta Ferminchus</p>
       <p>Labarden 236</p>
-      <a href={ubication}>Ver en el mapa</a>
+      <a href={ubication} target="_blank" rel="noreferrer">
+        Ver en el mapa
+      </a>
     </div>
   );
 };

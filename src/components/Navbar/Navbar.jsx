@@ -7,7 +7,7 @@ export const Navbar = () => {
     {
       id: 1,
       name: "que",
-      display: "Qué?",
+      display: "Te invito",
     },
     {
       id: 2,
@@ -23,8 +23,8 @@ export const Navbar = () => {
 
   const { setOption } = useOption();
 
-  const optionSelected = (a) => {
-    setOption(a);
+  const optionSelected = (selection) => {
+    setOption(selection);
   };
 
   return (
