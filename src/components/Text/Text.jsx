@@ -3,6 +3,7 @@ import { useOption } from "../Context/Context";
 import { Que } from "../Que/Que";
 import { Cuando } from "../Cuando/Cuando";
 import { Donde } from "../Donde/Donde";
+import "./Text.css";
 
 export const Text = () => {
   const { option } = useOption();
