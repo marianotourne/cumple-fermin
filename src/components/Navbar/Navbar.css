@@ -1,8 +1,19 @@
 .navbar {
-  display: flex;
   height: 50px;
+  width: 100%;
+  display: flex;
   align-items: center;
-  font-size: 2rem;
+  justify-content: center;
+  font-size: 2.4rem;
+  background-image: linear-gradient(
+    to right,
+    #03bfcf,
+    #02c8d8,
+    #01d2e1,
+    #00dbeb,
+    #00e5f4
+  );
+  margin-top: 6px;
 }
 
 .navbar-nav {
@@ -18,5 +29,5 @@
 }
 
 .nav-item:hover {
-  color: #5f54d6;
+  color: #4770ea;
 }
