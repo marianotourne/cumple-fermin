@@ -29,11 +29,11 @@ a {
   color: #ffffff;
   background-image: linear-gradient(
     to right,
-    #03bfcf,
-    #02c8d8,
-    #01d2e1,
-    #00dbeb,
-    #00e5f4
+    #e60531,
+    #e8163b,
+    #e92244,
+    #ea2b4d,
+    #eb3456
   );
   padding: 6px 16px;
   border-radius: 4px;
@@ -42,13 +42,13 @@ a {
 
 #root {
   width: 360px;
-  min-height: 100vh;
+  height: 100vh;
+  /* min-height: 100vh; */
   background-image: url("../public/fondo.jpeg");
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
-  background-size: initial;
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   flex-direction: column;
 }
