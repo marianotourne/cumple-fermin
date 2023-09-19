@@ -42,13 +42,12 @@ a {
 
 #root {
   width: 360px;
-  height: 100vh;
+  height: 100dvh;
   /* min-height: 100vh; */
   background-image: url("../public/fondo.jpeg");
   background-position: top;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
-  /* justify-content: center; */
   flex-direction: column;
 }

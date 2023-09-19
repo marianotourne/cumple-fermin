@@ -3,8 +3,9 @@ import React from "react";
 export const Cuando = () => {
   return (
     <div className="footerText">
-      <p>Sábado 23 de Septiembre</p>
-      <p>De 11.00 a 19.00 hs</p>
+      <p>El sábado 23 de septiembre vamos a estar entre las 12:30 y 18:00 hs</p>
+      {/* <p>Entre las 11.00 y 19.00 hs</p> */}
+      <p>Confirmá si venis a comer</p>
     </div>
   );
 };
